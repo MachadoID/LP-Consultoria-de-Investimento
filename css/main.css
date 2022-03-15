@@ -1,0 +1,100 @@
+@import url(./bootstrap.min.css);
+@import url(./custom.css);
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: "Fredoka", sans-serif;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+#sobre{
+    margin-top: 4rem;
+}
+#valores{
+    margin-top: 4rem;
+}
+/* Formulario de contatos*/
+h1.titulo-form{
+    text-align: center;
+    margin-top: 30px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+}
+
+form label span{
+    font-size: 1.2rem;
+    margin-top: 1.3rem;
+}
+
+form input {
+    border: none;
+    height: 36px;
+    padding: 0 1rem;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid rgb(37, 37, 37);
+    border-radius: 6px;
+    background-color: rgb(36, 36, 36);
+    color: white;
+}
+
+form textarea {
+    border: none;
+    height: 100px;
+    padding: .5rem 1rem;
+    font-size: 15px;
+    outline: none;
+    border: 1px solid rgb(37, 37, 37);
+    border-radius: 6px;
+    background-color: rgb(36, 36, 36);
+    color: white;
+
+}
+
+.botao {
+    cursor: pointer;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 32px;
+    background-color: rgb(36, 36, 36);
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+    transition: all .3s ease-in-out;
+    width: 20%;
+    min-width: 20vh;
+}
+
+.botao:hover {
+    background-color: rgb(44, 44, 44);
+}
